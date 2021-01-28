@@ -14,4 +14,4 @@ A few resources to get you started if this is your first Flutter project:
 ## Screenshots
 
 <img  src="/screenshots/main-screen.jpg" alt="Main Screen" />
-<img src="/screenshots/favorite-screen.jpg  alt="Favorite Screen" />
+<img src="/screenshots/favorite-screen.jpg"  alt="Favorite Screen" />
