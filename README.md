@@ -1,4 +1,4 @@
-# startup_namer
+# startup-name-generator-english
 
 Flutter Startup Name Generator
 
