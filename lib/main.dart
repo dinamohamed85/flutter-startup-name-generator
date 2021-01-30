@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Startup Name Generator',
       theme: ThemeData(
         // Add the 3 lines from here...
-        primaryColor: Colors.teal,
+        primaryColor: Colors.purpleAccent[100],
       ),
       home: RandomWords(),
     );
@@ -54,6 +54,16 @@ class _RandomWordsState extends State<RandomWords> {
                 title: Text(
                   pair.asPascalCase,
                   style: _biggerFont,
+                ),
+                trailing: IconButton(
+                  icon: const Icon(Icons.delete),
+                  onPressed: () {
+                    setState(() {
+                      _saved.remove(pair);
+                      Navigator.of(context).pop();
+                      _pushSaved();
+                    });
+                  },
                 ),
               );
             },
@@ -99,7 +109,7 @@ class _RandomWordsState extends State<RandomWords> {
       trailing: Icon(
         // NEW from here...
         alreadySaved ? Icons.favorite : Icons.favorite_border,
-        color: alreadySaved ? Colors.purpleAccent : null,
+        color: alreadySaved ? Colors.purpleAccent[100] : null,
       ),
       onTap: () {
         // NEW lines from here...
