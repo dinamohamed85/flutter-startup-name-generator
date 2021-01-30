@@ -2,7 +2,7 @@
 
 Flutter Startup Name Generator ,Delete from the favorites list feature added.
 
-## Getting Started
+## Getting Started 🚀
 
 This project is a starting point for a Flutter application.
 
@@ -14,7 +14,7 @@ A few resources to get you started if this is your first Flutter project:
 
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-## Screenshots 🚀
+## Screenshots 🎉
 
 <div align="center">
 <img src="/screenshots/main-screen.jpg" alt="Main Screen" />
