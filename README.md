@@ -1,6 +1,6 @@
 # startup-name-generator-english ​👉​💭​
 
-Flutter Startup Name Generator
+Flutter Startup Name Generator ,Delete from the favorites list feature added.
 
 ## Getting Started
 
